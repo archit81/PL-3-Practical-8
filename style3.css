@@ -1,0 +1,81 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafc;
+    font-family: "euclid_circular_a", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    line-height: 25px;
+}
+
+main{
+    margin: 20px;
+}
+
+.main-header{
+    text-align: center;
+    font-size: 40px;
+    color: yellow;
+    background-color: slateblue;
+    margin: 0;
+    padding: 40px;
+}
+
+.quote {
+    font-size: 30px; 
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.315), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.quote figcaption {
+    margin: 1em;
+    font-style: oblique;
+    text-align: end;
+}
+
+.quote blockquote {
+    margin: 1em;
+}
+
+.quote{
+    transition: 0.6s all;
+}
+
+.quote:hover{
+    transform: scale(1.01);
+}
+
+.quote:hover > *{
+    color: #fc3434;
+    transition: 0.4s;
+    
+}
+
+figure.quote-1{
+    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+}
+
+figure.quote-2{
+    background: linear-gradient(to right, #34e89e, #0f3443); 
+}
+
+figure.quote-3{
+    background: linear-gradient(to right, #6190e8, #a7bfe8); 
+}
+
+figure.quote-4{
+    background: linear-gradient(to right, #dad299, #b0dab9);
+}
+
+figure.quote-5{
+    background: linear-gradient(to right, #43c6ac, #191654);
+}
+
+footer p{
+    background-color: darkgray;
+    padding: 30px 20px;
+    margin: 0;
+}

@@ -1,0 +1,69 @@
+body{
+    background-color: whitesmoke;
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    margin: 20px;
+}
+
+.main-header{
+    text-align: center;
+    background-color: #19388A;
+    color: rgb(255, 255, 255);
+    margin: 0%;
+    padding: 20px;
+    transition: 0.6s;
+}
+
+.main-header:hover{
+    color: #19388A;
+    background-color: gold;
+}
+
+.sub-header{
+    margin-bottom: 0;
+}
+
+.blog-header{
+    text-align: center;
+}
+
+.sidebar { 
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.sidebar strong{
+    color: green;
+}
+.sidebar ul a:hover{
+    color: coral;
+    font-weight: 600;
+}
+
+.article-header{
+    text-align: center;
+    color: #4F91CD;
+    text-transform: uppercase;
+}
+
+article strong{
+    color: crimson;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #172337;
+    color: white;
+    padding: 30px 20px;
+}
+
+.contact{
+    line-height: 40px;
+}
